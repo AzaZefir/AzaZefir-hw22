@@ -1,0 +1,27 @@
+.section-ready {
+    background-color: whitesmoke; }
+    .section-ready .container {
+      grid-template-columns: 1fr 1fr; }
+  
+  .ready-left {
+    border-right: 1px solid #808080;
+    font-size: 18px;
+    font-family: Oswald;
+    padding-top: 60px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px; }
+    .ready-left h2 {
+      margin-top: 0px;
+      margin-bottom: 40px; }
+  
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto; }
+  
+  .ready-right {
+    padding-left: 40px;
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 10px; }
