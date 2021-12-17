@@ -18,7 +18,7 @@
 
 ## Инструкция для старта проекта:
 * Склонировать данный репозиторий
-> https://github.com/AzaZefir/AzaZefir-hw21.git
+> https://github.com/AzaZefir/AzaZefir-hw22.git
 
 * Запустить команду npm install в терминале. Данная команда установит все пакеты, которые указанны в файле 
 packege.json, а также все их зависимости
