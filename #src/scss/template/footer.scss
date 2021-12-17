@@ -1,0 +1,122 @@
+/* ---------------------------------------------------------------------------- */
+/* -------------------------------------Footer--------------------------------- */
+/* ---------------------------------------------------------------------------- */
+footer{font-size: 13px;color: #ddd;}
+footer a{color:#ddd;}
+footer a:hover{color:#fff;}
+footer ul li {margin-bottom: 5px;border-bottom: 1px solid #555;padding: 10px 0 15px;}
+footer i.fa{font-size: 22px;margin-right: 8px;}
+
+
+footer .wrap-footer{padding: 60px;background: rgba(0, 0, 0, .8);}
+footer .wrap-footer ul li {margin-bottom: 5px;padding: 10px 0 15px;}
+footer .logo img{max-width: 170px;margin-top: 30px;}
+footer .col-footer-1 {}
+
+footer .col-footer-2{}
+footer .col-footer-2 ul {padding: 0;}
+footer .col-footer-2 ul li {list-style: none;margin-bottom: 5px; border-bottom: 1px solid #444;padding-bottom: 10px;}
+footer .col-footer-2 ul li:last-child{border-bottom: none;}
+footer .col-footer-2 ul li a{color: #aaa;font-size: 11px;}
+footer .col-footer-2 ul li a:hover{color: #eee;}
+
+footer .col-footer-3 a{color: #aaa; background: #202020; padding: 5px 10px;line-height: 2.3;font-size: 14px;text-transform: capitalize;margin-right: 1px;}
+footer .col-footer-3 a:hover{color: #fff;background: #000;}
+
+footer .col-footer-4 img{margin-bottom: 20px;}
+
+footer .bottom-social{margin-bottom: 20px;}
+footer .bottom-social i.fa{font-size: 24px;margin-right: 12px;}
+
+
+footer .bottom-footer{text-align: center;padding: 40px 0;color: #fff;}
+footer .bottom-footer a{text-decoration: underline}
+.copyright{font-size: 17px;}
+
+
+
+.body {
+    margin: 0;
+    padding: 0;
+    text-align: 4px;
+}
+
+a {
+    width: 20px;
+    height: 20px;
+    text-align: bottom;
+    color: black;
+}
+
+.trip {
+    position: relative;
+    align-items: center;
+}
+
+.trip img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 74%;
+    height: 30%;
+}
+
+.travel {
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    animation-name: point;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+}
+
+.travel:hover {
+    animation-play-state: paused;
+}
+
+.map-one {
+    left: 70%;
+    top: 40%;
+}
+
+.map-two {
+    left: 55%;
+    top: 58%;
+}
+
+.map-three {
+    left: 24%;
+    top: 44%;
+}
+
+.map-four {
+    left: 55%;
+    top: 43%;
+}
+
+.map-five {
+    left: 74%;
+    top: 68%;
+}
+
+.map-six {
+    left: 30%;
+    top: 64%;
+}
+
+@keyframes point {
+    0% {
+        width: 10px;
+        height: 10px;
+    }
+
+    100% {
+        width: 10px;
+        height: 10px;
+        opacity: 0.2;
+    }
+}

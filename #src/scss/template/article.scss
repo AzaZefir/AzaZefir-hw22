@@ -1,0 +1,47 @@
+/* ---Article--- */
+.single-post{}
+.single-post .wrap-post, .comments-are, .contact-form {padding:30px; position: relative;;}
+article.single-post{border-bottom: none; padding-bottom: 0;}
+article.single-post .wrap-post, .comments-are {padding:30px 20px; position: relative;margin-top: 30px;}
+article{background: #ffffff; color: #3F3F3F; margin: 0;/*padding: 0 30px 50px;*/}
+article:last-child{border-bottom: none;}
+article:after, article:before{clear: both; content: '\0020'; display: block; visibility: hidden; width: 0; height: 0;}
+article .heading h2{color: #1a1c1e;}
+article .post-thumbnail-wrap {text-align: center;width: 100%;margin-bottom: 10px;}
+article .post-thumbnail-wrap img {}
+article h2.entry-title{font-size: 53px;margin: 10px 0 0;font-weight: 300;letter-spacing: 2px;line-height: 1.1;}
+article h2.entry-title a{color: #131313;}
+article h2.entry-title a:hover{color: #555}
+article .l-tags{text-align: center; font-size: 11px;}
+
+article .entry-header{margin-bottom: 30px;}
+article.single-post .entry-header{margin-bottom: 30px;text-align: center;}
+article.single-post .entry-header h1.entry-title{font-size: 40px;line-height: 30px;font-weight: 300;margin: 0;text-transform: uppercase;margin-bottom: 0;line-height: 1.1}
+article.single-post .entry-header h1.entry-title a {color: #575756;margin: 0;}
+article .entry-title-blog a:hover {color: #628d7c;}
+
+article .entry-header .time {font-family: "Merriweather",Georgia,serif;color: #888;font-size: 17px;padding-bottom: 10px;display: block;}
+article .entry-header .cat-links {font-size: 17px;color: #7fcaad;text-transform: uppercase;letter-spacing: 1px;padding-top: 10px;display: block;}
+
+article .entry-header .entry-meta{color: #888;font-size: 17px;}
+article .entry-header .entry-meta a {color: #888;}
+article .entry-header .entry-meta a:hover {color: #131313;}
+
+article .entry-header .tags-links {display: block;}
+article .entry-header .tags-links a{padding: 3px 8px 1px;background: #131313;line-height: 20px;}
+article.single-post .entry-header .tags-links {margin-bottom: 70px;}
+
+
+article .entry-content{text-align: left;}
+article.single-post .entry-content{ padding: 40px 120px;}
+@media  (max-width: 540px){
+	article.single-post .entry-content{ padding: 30px;}
+}
+article .entry-content p{color: #686868;}
+article .entry-content blockquote {border-left: 3px solid #1c7791;margin: 0 50px;font-style: italic;color: #666;padding-left: 20px;}
+article .entry-content ol {float: left;text-align: justify;margin: 10px 50px;list-style-type: circle;font-size: 17px;}
+
+.comments-are textarea {height:170px;}
+
+.fix-right {float: right !important;}
+@media only screen and (max-width: 767px) {.fix-right {float: none;}}

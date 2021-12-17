@@ -1,0 +1,14 @@
+/* ---------------------------------------------------------------------------- */
+/* ----------------------------------Carousel---------------------------------- */
+/* ---------------------------------------------------------------------------- */
+.owl-nav > div {position: absolute;color:#fff;top: 50%;display: none;}
+.owl-nav > div:hover{color: #ccc;}
+.owl-carousel:hover .owl-nav div {display: block;}
+.owl-nav .owl-prev {left: 3%;}
+.owl-nav .owl-next {right: 3%;}
+.owl-nav div i {font-size: 40px;margin: -20px 0 0;}
+
+
+
+
+
